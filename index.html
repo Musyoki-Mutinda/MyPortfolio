@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-US-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Portfolio Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+
+<div id="header">
+	<div class="container">
+		
+		<nav>
+			<img src="assets/emms.jpg" class="logo">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+		</nav>
+
+		<script src="https://kit.fontawesome.com/YOUR_KIT_ID.js" crossorigin="anonymous"></script>
+
+		<div class="header-text">
+			<p>Student of Life</p>
+			<h1>Hi, I'm <span>Leone</span><br> from Kenya</h1>
+	</div>		
+</div>
+<!------about------>
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="assets/photographer.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1>About Me</h1>
+				<p>
+					Hello. My name is Leone Mutinda, a 4th year student at Strathmore University taking Bachelor of Business and Information Technology. I also have a growing backgrund in accounting. Below are some of the skills I have and activities I carry out both curricular and extra-curricular. Enjoy!
+				</p>
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id ="skills">
+					<ul>
+						<li><span>FX</span><br>Analysis & Management</li>
+						<li><span>Cooking</span><br>Cooking & Culinary Services</li>
+						<li><span>Photography</span><br>Photography & Videography Services</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>2019</span><br> - Internship at Nairobi Bottlers Limited</li>
+						<li><span>2024</span><br> - Volunteer at Mogra Children's Home</li>
+						<li><span>2025</span><br> - Trainee at Teach2Give at Dedan Kimathi University</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>2004 - 2011</span><br>St. Mary's School</li>
+						<li><span>2012 - 2015</span><br>Mount Kenya Academy Senior School</li>
+						<li><span>2016 - 2017</span><br>Skyline School</li>
+						<li><span>2021 - Current</span><br>Strathmore University</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-business-time"></i></i>
+				<h2>Quality Assurance in IT</h2>
+				<p>I provide end-to-end QA services to ensure that every digital product, whether a website, app, or internal system—meets defined quality standards before release. This includes creating and executing test plans, identifying and documenting bugs, verifying fixes, and validating functionality, performance, and security. The goal is to deliver reliable, user-friendly solutions that work as intended across devices and environments, reducing costly post-launch issues.</p>
+				<!--<a href="#">Learn more</a>-->
+			</div>
+			<div>
+				<i class="fa-solid fa-cookie-bite"></i>
+				<h2>Culinary Services</h2>
+				<p>I, and with the help of my team, craft memorable dining experiences for any occasion, from intimate private dinners to large gatherings. Services include custom menu planning, ingredient sourcing, and on-site preparation using fresh, seasonal produce. Whether it’s a multi-course plated dinner, buffet, or themed event, the focus is on flavor, presentation, and seamless service so hosts can relax and guests can enjoy.</p>
+				<!--<a href="#">Learn more</a>-->
+			</div>
+			<div>
+				<i class="fa-solid fa-images"></i>
+				<h2>Photography</h2>
+				<p>I provide professional photography and video production to capture stories with clarity and style. Services cover event coverage, portraits, product shoots, and promotional content. From planning and lighting to editing and final delivery, I ensure high-quality visuals that highlight the mood, details, and message you want to share.</p>
+				<!--<a href="#">Learn more</a>-->
+			</div>
+		</div>
+	</div>
+</div>
+<!-------------portfolio----------->
+<div id="portfolio">
+	<h1 class="sub-title">My Work</h1>
+	<div class="work-list">
+		<div class="work">
+			<img src="assets/trade.JPG">
+			<div class="layer">
+				<h3>Copy Trading</h3>
+				<p>This technique replicates trades taken by the account manager.</p>
+				<!--<a href="#"><i class="fa-solid fa-dollar-sign"></i></a>-->
+			</div>
+		</div>
+		<div class="work">
+			<img src="assets/bread.JPG">
+			<div class="layer">
+				<h3>Catering</h3>
+				<p>This allows for menu provision and catering services for events.</p>
+				<!--<a href="#"><i class="fa-solid fa-utensils"></i></a>-->
+			</div>
+		</div>
+		<div class="work">
+			<img src="assets/ferris.JPG">
+			<div class="layer">
+				<h3>Photgraphy</h3>
+				<p>This allows for showcasing of different pieces from various aesthetic scenes captured.</p>
+				<!--<a href="#"><i class="fa-solid fa-photo-film"></i></a>-->
+			</div>
+		</div>
+		<!--<a href="#" class="btn">See more</a>-->
+	</div>
+</div>
+<!--------------contact------------->
+<div id="contact">
+	<div class="container">
+		<div class="contact-left">
+			<h1>Contact Me</h1>
+			<p><i class="fa-solid fa-square-arrow-up-right"></i>mutindaleone@gmail.com</p>
+			<p><i class="fa-solid fa-square-phone"></i>0717384240</p>
+			<div class ="social-icons">
+				<a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+				<a href=""><i class="fa-brands fa-twitter"></i></a>
+				<a href=""><i class="fa-brands fa-instagram"></i></a>
+				<a href=""><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+			<a href="assets/Mutinda_CV.pdf" download class="btn btn2">Download CV</a>
+		</div>
+		<div class="contact-right">
+			<form>
+				<input type="text" name="Name" placeholder="Your Name" required>
+				<input type="email" name="email" placeholder="Your Email" required>
+				<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+				<button type="submit" class="btn btn2">Submit</button>
+ 			</form>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright © Leone<i class="fa-solid fa-heart"></i> Mutinda.</p>
+</div>
+
+<script>
+    // Collect the elements
+    const tablinks   = document.getElementsByClassName("tab-links");
+    const tabcontent = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        // Remove active styles from all tabs and contents
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+        for (let i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].classList.remove("active-tab");
+        }
+
+        // Add the active style to the clicked link
+        event.currentTarget.classList.add("active-link");
+        // Show the matching content
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+<script>
+  const sidemenu = document.getElementById('sidemenu');
+  function openMenu() { sidemenu.style.right = '0'; }
+  function closeMenu() { sidemenu.style.right = '-200px'; }
+</script>
+
+
+</body>
+</html>
